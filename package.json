@@ -1,0 +1,25 @@
+{
+  "name": "compress-img-tool",
+  "version": "1.0.0",
+  "description": "图片压缩工具",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "compress-img": "./cli.js"
+  },
+  "keywords": [
+    "image",
+    "compress",
+    "sharp"
+  ],
+  "author": "volcano-hlc",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^10.0.3",
+    "sharp": "^0.33.4"
+  }
+}
